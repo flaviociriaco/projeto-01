@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(133, 129, 129);
   height: 100vh;
   min-height: 100%;
   display: flex;
@@ -8,6 +7,7 @@ body {
 }
 
 .area {
+  background-color: rgb(110, 114, 116);
   width: 100%;
   max-width: 350px;
   text-align: center;
@@ -15,11 +15,16 @@ body {
 }
 
 .logo {
-    width: 100%;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 .remember {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gray {
+  color: #400741;
+  padding: 20px;
 }
